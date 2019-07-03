@@ -1,0 +1,59 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.selections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+
+}
+ul {
+    margin: 0 10px;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+li {
+    margin-top: 10px;
+}
+button {
+    margin: 0px 10px;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+}
+input[type=number] {
+    border-radius: 10%;
+    width: 40px;
+    margin: 0px 10px;
+}
+input[type=submit] {
+    margin: 0px 10px;
+}
+.hidden {
+    display: none;
+}
+span {
+    display: block;
+}
+.park-list-item {
+    border-top: 1px solid black;
+}
+/*section {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: brown;
+    height: 100%;
+    width: 75%;
+}
